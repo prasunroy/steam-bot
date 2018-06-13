@@ -1,0 +1,14 @@
+{
+  "name": "steam-bot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bot"
+  },
+  "dependencies": {
+    "steam-totp": "^1.4.0",
+    "steam-tradeoffer-manager": "^2.5.0",
+    "steam-user": "^3.15.0",
+    "steamcommunity": "^3.30.4"
+  }
+}
