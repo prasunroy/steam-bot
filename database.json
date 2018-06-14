@@ -1,0 +1,163 @@
+{
+  "Scrap Metal":
+  {
+    "buy" : 1,
+    "sell": 1
+  },
+
+  "Reclaimed Metal":
+  {
+    "buy" : 3,
+    "sell": 3
+  },
+
+  "Refined Metal":
+  {
+    "buy" : 9,
+    "sell": 9
+  },
+
+  "Mann Co. Supply Crate Key":
+  {
+    "buy" : 0,
+    "sell": 99999999
+  },
+  
+  "Tour of Duty Ticket":
+  {
+    "buy" : 0,
+    "sell": 99999999
+  },
+
+  "440-DEMOMAN (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-ENGINEER (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-MEDIC (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-PYRO (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-SCOUT (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-SNIPER (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-SOLDIER (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-SPY (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "440-HEAVY (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Bounty Hunter":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Phantom Lancer":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Razor":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Riki":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Tidehunter (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Tiny":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Tusk":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "570-Vengeful Spirit (Trading Card)":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "730-Anarchist":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "730-Balkan":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "730-FBI":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "730-IDF":
+  {
+    "buy" : 3,
+    "sell": 6
+  },
+
+  "730-SWAT":
+  {
+    "buy" : 3,
+    "sell": 6
+  }
+}
