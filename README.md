@@ -5,6 +5,32 @@
 ![badge](https://github.com/prasunroy/steam-bot/blob/master/assets/badge_1.svg)
 ![badge](https://github.com/prasunroy/steam-bot/blob/master/assets/badge_2.svg)
 
+## Installation
+#### Step 1: Install [Node.js](https://nodejs.org/en/download)
+>Note: This application requires Node.js 6.0.0 or later and npm 5.5.0 or later.
+#### Step 2: Clone repository
+```
+git clone https://github.com/prasunroy/steam-bot.git
+cd steam-bot
+```
+#### Step 3: Install dependencies
+```
+npm install
+```
+#### Step 4: Create a file ***`config.json`*** in *steam-bot* directory with Steam account login credentials
+```json
+{
+  "accountName": "<username>",
+  "password"   : "<password>"
+}
+```
+>Note: *`<username>`* and *`<password>`* need to be replaced by Steam account login credentials of bot.
+#### Step 5: Setup bot
+```
+node setup
+```
+>Note: All ***login credentials*** and ***secret keys*** will be saved to ***config.json*** during setup. The linked Steam account can be accessed from any device using these information. Manually modifying, deleting, sharing or losing this file may lead to lose access to the linked Steam account. In such cases the only way to regain access is to contact Steam support. It is highly recommended to keep a backup of ***config.json*** in a safe location.
+
 ## References
 >[Logo](https://github.com/prasunroy/steam-bot/raw/master/assets/logo.png) is obtained from [Pixabay](https://pixabay.com) made available under [Creative Commons CC0 License](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
 
