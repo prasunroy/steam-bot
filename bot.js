@@ -16,7 +16,7 @@ var SteamUser = require('steam-user');
 var SteamCommunity = require('steamcommunity');
 var SteamTradeOfferManager = require('steam-tradeoffer-manager');
 var SteamTOTP = require('steam-totp');
-var fs = require('fs');
+// var fs = require('fs');
 var database = require('./database');
 
 try {
@@ -45,9 +45,9 @@ var manager = new SteamTradeOfferManager({
 });
 
 // poll information
-if(fs.existsSync('polldata.json')) {
-  manager.pollData = JSON.parse(fs.readFileSync('polldata.json'));
-}
+// if(fs.existsSync('polldata.json')) {
+//   manager.pollData = JSON.parse(fs.readFileSync('polldata.json'));
+// }
 
 // steam login
 console.log('connecting to steam account...');
@@ -180,10 +180,10 @@ manager.on('receivedOfferChanged', function(offer, oldState) {
 });
 
 // update the poll information
-manager.on('pollData', function(pollData) {
+// manager.on('pollData', function(pollData) {
 
-  fs.writeFile('polldata.json', JSON.stringify(pollData));
-});
+//   fs.writeFile('polldata.json', JSON.stringify(pollData));
+// });
 
 
 // send a trade offer
