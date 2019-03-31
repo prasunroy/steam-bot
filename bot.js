@@ -70,7 +70,7 @@ client.on('loggedOn', function(details, parental) {
   client.setPersona(SteamUser.EPersonaState.Online);
 
   // acknowledge admin
-  client.chatMessage(config.admin, 'Yo! I am now online.');
+  // client.chatMessage(config.admin, 'Yo! I am now online.');
 });
 
 // login error
