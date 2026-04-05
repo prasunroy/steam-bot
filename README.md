@@ -6,7 +6,7 @@
 ![badge](https://github.com/prasunroy/steam-bot/blob/master/assets/badge_2.svg)
 
 ## Installation
-#### *`A Steam account with verified email address and mobile number is required to setup bot.`*
+#### *`A Steam account with verified email address and mobile number is required to setup the bot.`*
 
 #### Step 1: Install [Node.js](https://nodejs.org/en/download) and [npm](https://www.npmjs.com)
 >**Note:** This application requires Node.js 6.0.0 or later and npm 5.5.0 or later.
